@@ -1,0 +1,13 @@
+.h1 {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+}
+.section {
+    text-align: center;
+}
+
+h2.places {
+    text-transform: capitalize;
+}
