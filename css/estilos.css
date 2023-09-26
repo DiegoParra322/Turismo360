@@ -1,0 +1,47 @@
+.login {
+    display: inline-block;
+    padding: 15px 30px;
+    align-items: end;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #2a81e8!important;
+    margin: 0px 0.5rem;
+
+}
+
+img {
+
+    display: flex;
+    width: 100%;
+    position:;
+    opacity: .8;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17rem;
+    top: 20vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding: 15px 30px;
+}
+
+p {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: 38rem;
+    height: 1rem;
+}
+
