@@ -9,6 +9,14 @@
     margin: 0px 0.5rem;
 
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding: 15px 30px;
+    z-index: 1;
+    margin: 0 0 0 53rem;
+}
 
 img {
 
@@ -27,6 +35,7 @@ img {
     margin-right: auto;
     width: 17rem;
     top: 20vh;
+    z-index: 1;
 }
 
 .experiences-grid {
@@ -35,14 +44,7 @@ img {
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
-}
-nav {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    padding: 15px 30px;
-    z-index: 1;
-    margin: 0 0 0 53rem;
+    height: 50rem;
 }
 
 p {
@@ -52,11 +54,17 @@ p {
     height: 1rem;
     justify-content: center;
 }
+section.Container {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+   
+}
 .Enunciado2 {
     font-size: 30px;
     color: black;
     margin: 10px 0px 0px;
     font-weight: bold;
+    height: 5rem;
 }
 
 input {
@@ -72,25 +80,81 @@ input {
     border-width: 1px;
     border-radius: 1rem;
 }
-.Container1 {
+.Ciudades-Principales {
     display: flex;
+    justify-content: space-around;
+    z-index: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
 }
-.Container1.Cabo1 {
-    position: absolute;
-}
-.Container2 {
+
+.Ciudades-Secundarias {
     display: flex;
+    justify-content: space-around;
+    z-index: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.Ciudades-Principales-Portadas {
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    justify-items: center;
+    height: 17rem;
+}
+
+.Ciudades-Secundarias-Portadas {
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.Bogota-Portada {
+    margin: 10px;
+}
+.Santa-Marta-Portada {
+    margin: 10px;
+}
+.Cartagena-Portada {
+    margin: 10px;
+}
+.San-Andres-Portada {
+    margin: 10px;
+}
+.Guaviare-Portada {
+    margin: 10px;
+}
+.Amazonas-Portada {
+    margin: 10px;
 }
 
 footer {
     background-color: gray;
 }
-.logo1 {
+.Footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    
+    
+}
+.Logo-Piedepagina {
     width: 6rem;
 }
-.Footer-container {
+.Piedepagina1 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 0rem 5rem 0rem 5rem;
+    flex-direction: column;
+    margin: 1rem;
+}
+.Piedepagina2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
 }
