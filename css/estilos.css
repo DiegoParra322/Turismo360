@@ -5,8 +5,9 @@
     border: none;
     cursor: pointer;
     border-radius: 4px;
-    background-color: #2a81e8!important;
+    background-color: #3c5f62;
     margin: 0px 0.5rem;
+    color: white;
 
 }
 nav {
@@ -17,7 +18,17 @@ nav {
     z-index: 1;
     margin: 0 0 0 53rem;
 }
-
+.banner {
+    background-image: url( ./BOGOTA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 29vw;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    filter: contrast(0.8);
+}
 img {
 
     display: flex;
@@ -54,48 +65,62 @@ p {
     height: 1rem;
     justify-content: center;
 }
-section.Container {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-   
-}
-.Enunciado2 {
+  
+.Enunciado1 {
     font-size: 30px;
     color: black;
     margin: 10px 0px 0px;
     font-weight: bold;
     height: 5rem;
 }
-
-input {
-    width: 100%;
-    border: 1;
-    margin: 37px 1px 37px 1px;
-    display: inline-flex;
-    padding: 9px;
-    position: relative;
-    min-width: 0;
-    flex-direction: column;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 1rem;
+h2 {
+    font-size: 30px;
+    color: black;
+    margin: 10px 0px 0px;
+    font-weight: bold;
+    height: 5rem;
+    text-align: center;
 }
+
+
 .Ciudades-Principales {
     display: flex;
-    justify-content: space-around;
-    z-index: 1rem;
+    z-index: 1;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2rem;
+    margin: 8rem;
+    position: absolute;
+    color: white;
 }
 
 .Ciudades-Secundarias {
     display: flex;
-    justify-content: space-around;
-    z-index: 1rem;
+    z-index: 1;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2rem;
+    margin: 8rem;
+    position: absolute;
+    color: white;
+}
+.Bogota {
+    margin: 0 0 0 1rem;
+}
+.Santa-Marta {
+    margin: 0 0 0 14rem;
+}
+.Cartagena {
+    margin: 0 0 0 13rem;
+}
+.San-Andrés {
+    margin: 0 0 0 13rem;
+}
+.Guaviare {
+    margin: 0 0 0 13rem;
+}
+.Amazonas {
+    margin: 0 0 0 15rem;
 }
 .Ciudades-Principales-Portadas {
     display: grid;
@@ -104,6 +129,7 @@ input {
     grid-gap: 30px;
     justify-items: center;
     height: 17rem;
+    margin-bottom: 2rem;
 }
 
 .Ciudades-Secundarias-Portadas {
@@ -112,29 +138,49 @@ input {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
     justify-items: center;
+    
 }
 
 .Bogota-Portada {
     margin: 10px;
+    height: inherit;
+    filter: brightness(0.5);
+    border-radius: 25px;
 }
 .Santa-Marta-Portada {
     margin: 10px;
+    height: inherit;
+    filter: brightness(0.5);
+    border-radius: 25px;
 }
 .Cartagena-Portada {
     margin: 10px;
+    height: inherit;
+    filter: brightness(0.5);
+    border-radius: 25px;
+
 }
 .San-Andres-Portada {
     margin: 10px;
+    height: inherit;
+    filter: brightness(0.5);
+    border-radius: 25px;
 }
 .Guaviare-Portada {
     margin: 10px;
+    height: inherit;
+    filter: brightness(0.5);
+    border-radius: 25px;
 }
 .Amazonas-Portada {
     margin: 10px;
+    height: inherit;
+    filter: brightness(0.5);
+    border-radius: 25px;
 }
 
 footer {
-    background-color: gray;
+    background-color: #90b2b5;
 }
 .Footer-container {
     display: grid;
@@ -157,4 +203,10 @@ footer {
     align-items: center;
     flex-direction: column;
     margin: 1rem;
+}
+.logos {
+    display: flex;
+    width: 2rem;
+    gap: 1rem;
+    margin: 0 9rem 0 0;
 }
