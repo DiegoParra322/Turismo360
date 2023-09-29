@@ -19,7 +19,7 @@ nav {
     margin: 0 0 0 53rem;
 }
 .banner {
-    background-image: url( ./images/BOGOTA.jpg);
+    background-image: url( ./images/monserrate.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 29vw;
@@ -55,7 +55,7 @@ img {
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
-    height: 50rem;
+    height: 66rem;
 }
 
 p {
@@ -138,15 +138,15 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
     justify-items: center;
+    height: 17.4rem;
     
 }
 
 .Bogota-Portada {
-    margin: 9px;
-    height: 17rem;
+    margin: 10px;
+    height: inherit;
     filter: brightness(0.5);
     border-radius: 25px;
-    width: 24.5rem;
 }
 .Santa-Marta-Portada {
     margin: 10px;
@@ -163,7 +163,6 @@ h2 {
 }
 .San-Andres-Portada {
     margin: 10px;
-    height: inherit;
     filter: brightness(0.5);
     border-radius: 25px;
 }
@@ -172,12 +171,14 @@ h2 {
     height: inherit;
     filter: brightness(0.5);
     border-radius: 25px;
+    height: 15.4rem;
 }
 .Amazonas-Portada {
     margin: 10px;
     height: inherit;
     filter: brightness(0.5);
     border-radius: 25px;
+    height: 15.4rem;
 }
 
 footer {
