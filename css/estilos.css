@@ -182,6 +182,15 @@ h2 {
 footer {
     background-color: #90b2b5;
 }
+
+.icon-social {
+    font-size: 1.7rem;
+}
+.logos {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
 .Footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -203,10 +212,4 @@ footer {
     align-items: center;
     flex-direction: column;
     margin: 1rem;
-}
-.logos {
-    display: flex;
-    width: 2rem;
-    gap: 1rem;
-    margin: 0 9rem 0 0;
 }
